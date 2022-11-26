@@ -1,13 +1,18 @@
 body{
-    background-color: rgb(6, 156, 156);
+    background-color: bisque;
     text-align: center;
 }
 
 h1, h2{
-    color: blueviolet;
+    color: rgb(226, 43, 150);
     font-family: 'Times New Roman', Times, serif;
 }
 
 p{
-    color: aquamarine;
+    color: rgb(43, 183, 226);
+}
+
+#my-avatar{
+    width: 150px;
+    border-radius: 50%;
 }
