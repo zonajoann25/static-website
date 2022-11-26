@@ -6,3 +6,8 @@ body{
 h1, h2{
     color: blueviolet;
     font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: aquamarine;
+}
