@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pacifico&family=Style+Script&display=swap');
 
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: bisque;
-    text-align: center;
+    background-color: #F7CCAC;
     font-family:'Noto Serif', serif;;
 }
 
 h1, h2{
-    color: rgb(226, 43, 150);
+    color: #59C1BD;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -20,8 +25,42 @@ p{
     border-radius: 50%;
 }
 
-#my-name {
-    font-family: 'Pacifico', cursive;
+#content {
+    text-align: center;
+
 }
 
+#my-name {
+    font-family: 'Pacifico', cursive;
+    color: #FF74B1;
+}
+
+#left-side {
+     width: 50%;
+    display: inline-block;
+    padding:1rem;
+}
+
+#right-side {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    padding: 1rem;
+}
+
+a {
+    color: #0D4C92;
+    text-decoration: none;
+    border: 1px dotted;
+}
+
+header {
+    margin-top: 16px;
+    
+}
+
+.nav-link {
+    margin-top: 8px;
+    margin-left: 8px;
+}
 
