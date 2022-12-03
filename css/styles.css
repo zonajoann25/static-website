@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Pacifico&family=Style+Script&display=swap');
+
 body{
     background-color: bisque;
     text-align: center;
+    font-family:'Noto Serif', serif;;
 }
 
 h1, h2{
@@ -16,3 +19,9 @@ p{
     width: 150px;
     border-radius: 50%;
 }
+
+#my-name {
+    font-family: 'Pacifico', cursive;
+}
+
+
